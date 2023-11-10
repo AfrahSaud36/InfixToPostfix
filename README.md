@@ -19,7 +19,9 @@ The algorithm for converting infix to postfix generally involves using a stack t
 **Here's a simplified explanation:**
 
 -Initialize an empty stack to keep track of operators.
+
 -Initialize an empty output string to store the postfix expression.
+
 -start scanning the infix expression from left to right.
 
 **For each symbol in the infix expression:**
