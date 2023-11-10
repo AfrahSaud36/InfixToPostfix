@@ -52,6 +52,10 @@ After scanning the entire expression, pop any remaining operators from the stack
 <img width="487" alt="Infix" src="https://github.com/AfrahSaud36/InfixToPostfix/assets/138797663/cbc77411-70a1-40ae-81f6-38d6a089b9d0">
 
 
+## Mathematically
+<img width="460" alt="mmath" src="https://github.com/AfrahSaud36/InfixToPostfix/assets/138797663/3bcf2965-b934-458e-ac9f-5f7788f8afb1">
+
+
 
 ## Usage
 
