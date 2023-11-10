@@ -16,13 +16,13 @@ Infix to postfix conversion is a process used in computer science and programmin
 
 The algorithm for converting infix to postfix generally involves using a stack to keep track of operators and ensuring that the output maintains the correct order of operations.
 
-**Here's a simplified explanation:
+**Here's a simplified explanation:**
 
--**Initialize an empty stack to keep track of operators.
--**Initialize an empty output string to store the postfix expression.
--**Start scanning the infix expression from left to right.
+-Initialize an empty stack to keep track of operators.
+-Initialize an empty output string to store the postfix expression.
+-start scanning the infix expression from left to right.
 
-**For each symbol in the infix expression:
+**For each symbol in the infix expression:**
 If it's an operand (like a number or variable), add it to the output string.
 If it's an operator, pop operators from the stack and add them to the output until the stack is empty or the top operator has lower precedence. Then push the current operator onto the stack.
 If it's an opening parenthesis '(', push it onto the stack.
@@ -30,7 +30,7 @@ If it's a closing parenthesis ')', pop operators from the stack and add them to 
 After scanning the entire infix expression, pop any remaining operators from the stack and add them to the output.
 Let's take an example to illustrate:
 
-**Infix: A + B * C - D / E
+**Infix: A + B * C - D / E**
 
 Start with an empty stack and an empty output string.
 Scan the infix expression:
@@ -45,7 +45,7 @@ D is an operand, add it to the output.
 E is an operand, add it to the output.
 After scanning the entire expression, pop any remaining operators from the stack and add them to the output. 
 
-**The final postfix expression is: A B C * + D E / - as showm in the output
+**The final postfix expression is: A B C * + D E / - as showm in the output**
 
 <img width="487" alt="Infix" src="https://github.com/AfrahSaud36/InfixToPostfix/assets/138797663/cbc77411-70a1-40ae-81f6-38d6a089b9d0">
 
